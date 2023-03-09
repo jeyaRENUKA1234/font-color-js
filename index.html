@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	</head>
+	<body>
+		
+		<button onclick="color()">click</button>
+		<div id="result">RENUKA DEVI</div>
+	  <script>
+		function color(){
+			let div= document.getElementById('result')
+			let red = Math.floor(Math.random()*255);
+			let green = Math.floor(Math.random()*255);
+			let blue = Math.floor(Math.random()*255);
+			div.style.color = `rgb(${red}, ${green}, ${blue})`
+	}
+	</script>
+</html>
